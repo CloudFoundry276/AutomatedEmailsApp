@@ -1,0 +1,2 @@
+# AutomatedEmailsApp
+Automated Emails App
