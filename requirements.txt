@@ -1,0 +1,3 @@
+yagmail~=0.15.277
+pandas~=1.4.0
+requests~=2.27.1
