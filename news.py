@@ -4,7 +4,7 @@ import requests
 class NewsFeed:
     """Representing multiple news titles and links as a single string"""
     base_url = "https://newsapi.org/v2/everything?"
-    api_key = "1860f9ab1b274c1da398e990f45967a6"
+    api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
     def __init__(self, interest, from_date, to_date, language='en'):
         self.interest = interest
