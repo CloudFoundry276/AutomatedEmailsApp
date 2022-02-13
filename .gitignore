@@ -1,5 +1,2 @@
 # ignore all txt files
 design.txt
-
-# ignore all excel files
-*.xlsx
