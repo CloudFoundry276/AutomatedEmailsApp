@@ -9,7 +9,7 @@ def send_mail():
     from_date = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime('%Y-%m-%d')
     to_date = datetime.datetime.now().strftime('%y-%m-%d')
     news_feed = NewsFeed(interest=row['interest'], from_date=from_date, to_date=to_date)
-    email = yagmail.SMTP(user="pythondjango276@gmail.com", password="Hello@World123")
+    email = yagmail.SMTP(user="youremail@example.com", password="youremailpassword")
     email.send(to=row['email'],
                subject=f"Your {row['interest']} news for today!",
                contents=f"Hi {row['name']},\nSee what's on about {row['interest']} today.\n\n{news_feed.get()}\nPython Django")
